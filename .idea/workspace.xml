@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50bbee07-b4c9-4958-b8c0-e0aeba8cd709" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/script/rtree.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/rtree.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/rtree_copy.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="50bbee07-b4c9-4958-b8c0-e0aeba8cd709" name="Default" comment="" />
     <ignored path="Research-Tree.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -70,13 +64,12 @@
       <file leaf-file-name="rtree.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/rtree.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57723576">
-              <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.5365854">
+              <caret line="136" column="7" selection-start-line="136" selection-start-column="7" selection-end-line="136" selection-end-column="7" />
               <folding>
                 <element signature="e#568#653#0" expanded="false" />
                 <element signature="e#655#741#0" expanded="false" />
                 <element signature="e#1752#2191#0" expanded="false" />
-                <element signature="e#2753#2805#0" expanded="false" />
                 <element signature="e#2806#2859#0" expanded="false" />
                 <element signature="e#2860#2923#0" expanded="false" />
                 <element signature="e#3030#3379#0" expanded="false" />
@@ -711,21 +704,21 @@
       <option name="number" value="Default" />
       <updated>1460750817614</updated>
       <workItem from="1460750818762" duration="901000" />
-      <workItem from="1461635125020" duration="9663000" />
+      <workItem from="1461635125020" duration="9808000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10564000" />
+    <option name="totallyTimeSpent" value="10709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="26" width="1341" height="797" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -799,7 +792,6 @@
             <element signature="e#568#653#0" expanded="false" />
             <element signature="e#655#741#0" expanded="false" />
             <element signature="e#1752#2191#0" expanded="false" />
-            <element signature="e#2753#2805#0" expanded="false" />
             <element signature="e#2806#2859#0" expanded="false" />
             <element signature="e#2860#2923#0" expanded="false" />
             <element signature="e#3030#3379#0" expanded="false" />
@@ -893,13 +885,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/rtree.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57723576">
-          <caret line="140" column="6" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.5365854">
+          <caret line="136" column="7" selection-start-line="136" selection-start-column="7" selection-end-line="136" selection-end-column="7" />
           <folding>
             <element signature="e#568#653#0" expanded="false" />
             <element signature="e#655#741#0" expanded="false" />
             <element signature="e#1752#2191#0" expanded="false" />
-            <element signature="e#2753#2805#0" expanded="false" />
             <element signature="e#2806#2859#0" expanded="false" />
             <element signature="e#2860#2923#0" expanded="false" />
             <element signature="e#3030#3379#0" expanded="false" />
