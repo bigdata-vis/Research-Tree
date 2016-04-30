@@ -1,7 +1,9 @@
 {
   "name": "Big Data Visualisation",
+  "pdf":"References",
   "children": [{
     "name": "Machine Learning",
+    "pdf":"References",
     "children": [{
       "name": "Algorithms",
       "children": [{

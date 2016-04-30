@@ -46,7 +46,6 @@ treeJSON = d3.json("data/rtree.json", function(error, treeData) {
         });
 
     // A recursive helper function for performing some setup by walking through all nodes
-
     function visit(parent, visitFn, childrenFn) {
         if (!parent) return;
 
@@ -69,7 +68,6 @@ treeJSON = d3.json("data/rtree.json", function(error, treeData) {
     }, function(d) {
         return d.children && d.children.length > 0 ? d.children : null;
     });
-
 
     // sort the tree according to the node names
     function sortTree() {
@@ -111,7 +109,6 @@ treeJSON = d3.json("data/rtree.json", function(error, treeData) {
     function zoom() {
         svgGroup.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
     }
-
 
     // define the zoomListener which calls the zoom function on the "zoom" event constrained within the scaleExtents
     var zoomListener = d3.behavior.zoom().scaleExtent([0.1, 3]).on("zoom", zoom);
@@ -406,6 +403,7 @@ treeJSON = d3.json("data/rtree.json", function(error, treeData) {
                 return d._children ? "lightsteelblue" : "#fff";
             });
 
+        //node text
         nodeEnter.append("text")
             .attr("x", function(d) {
                 return d.children || d._children ? -10 : 10;
@@ -419,6 +417,34 @@ treeJSON = d3.json("data/rtree.json", function(error, treeData) {
                 return d.name;
             })
             .style("fill-opacity", 0);
+
+        //  TODO: Append referenced files to nodes, using icon or text
+        nodeEnter.append("text")
+            .attr("x", function(d) {
+                return d.children || d._children ? -10 : 10;
+            })
+            .attr("dy", "2.46em")
+            .attr('class', 'Pdf')
+            .attr("text-anchor", function(d) {
+                return d.children || d._children ? "center" : "start";
+            })
+            .text(function(d) {
+                //return d.pdf;
+                return d.pdf;
+            });
+            //.style("fill-opacity", 0.5);
+
+        //Todo: try dropdown
+
+        //nodeEnter.append("g").append("select")
+        //    .attr("name", "ref-list")
+        //    .attr("x", function(d) {
+        //        return d.children || d._children ? -10 : 10;
+        //    })
+        //    .attr("dy", "3.46em")
+        //    .append("option")
+        //    .text("Saminu")
+
 
         // phantom node to give us mouseover in a radius around it
         nodeEnter.append("circle")
@@ -450,7 +476,7 @@ treeJSON = d3.json("data/rtree.json", function(error, treeData) {
         node.select("circle.nodeCircle")
             .attr("r", 4.5)
             .style("fill", function(d) {
-                return d._children ? "lightsteelblue" : "#fff";
+                return d._children ? "lightgreen" : "#fff";
             });
 
         // Transition nodes to their new position.
