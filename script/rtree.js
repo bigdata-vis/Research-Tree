@@ -420,6 +420,21 @@ treeJSON = d3.json("data/rtree.json", function(error, treeData) {
             })
             .style("fill-opacity", 0);
 
+        //  TODO: Append referenced files to nodes, using icon or text
+        nodeEnter.append("text")
+            .attr("x", function(d) {
+                return d.children || d._children ? -10 : 10;
+            })
+            .attr("dy", "2.46em")
+            .attr('class', 'Pdf')
+            .attr("text-anchor", function(d) {
+                return d.children || d._children ? "center" : "start";
+            })
+            .text(function(d) {
+                //return d.pdf;
+                return d.pdf;
+            });
+
         // phantom node to give us mouseover in a radius around it
         nodeEnter.append("circle")
             .attr('class', 'ghostCircle')
